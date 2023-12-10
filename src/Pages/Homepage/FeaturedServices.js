@@ -10,7 +10,7 @@ const FeaturedServices = () => {
     <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
   </figure> */}
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Get a 2% lower rate with a co-applicant</h2>
+    <h2 className="card-title">Get lower rate with a co-applicant</h2>
     <p className="text-justify">Lower your rate and get approved for more money when you borrow together.</p>
     <div className="card-actions">
       <button className="btn btn-accent">Apply Now</button>
@@ -34,8 +34,8 @@ const FeaturedServices = () => {
     <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
   </figure> */}
   <div className="card-body items-center text-center">
-    <h2 className="card-title">NEW! Introducing the goeasy Connect Mobile App</h2>
-    <p className="text-justify">Get real-time access to your account details, payment information, and pre-approved offers so you know how much you can borrow and at what rates.</p>
+    <h2 className="card-title">First-Time Borrower Discount</h2>
+    <p className="text-justify">Offer a reduced interest rate for customers who are borrowing for the first time. This can attract new customers and encourage them to choose your company over competitors.</p>
     <div className="card-actions">
       <button className="btn btn-accent">Apply Now</button>
     </div>

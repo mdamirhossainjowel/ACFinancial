@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import acfinancial from "../../Assets/AC Finance.png"
 
 const ProductsandServices = () => {
   return (
@@ -14,10 +15,8 @@ const ProductsandServices = () => {
         that’s right for you
       </p>
       <div className="flex flex-col mx-2 items-center justify-center lg:flex-row lg:justify-evenly mt-6 ">
-        <div className="card w-auto lg:w-96 lg:h-96 mb-4 lg:mr-2 bg-base-100 shadow-xl">
-          {/* <figure className="px-10 pt-10">
-    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-  </figure> */}
+        <div className="card w-auto lg:w-96 lg:h-96 mb-4 lg:mr-2 bg-base-100 shadow-xl image-full">
+        <figure><img src={acfinancial} alt="Shoes" /></figure>
           <div className="card-body ">
             <h2 className="card-title">Private Mortgage</h2>
             <p className="text-justify">
@@ -38,10 +37,8 @@ const ProductsandServices = () => {
             </div>
           </div>
         </div>
-        <div className="card lg:w-96 lg:h-96 mb-4 lg:mr-2  bg-base-100 shadow-xl">
-          {/* <figure className="px-10 pt-10">
-    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-  </figure> */}
+        <div className="card w-auto lg:w-96 lg:h-96 mb-4 lg:mr-2 bg-base-100 shadow-xl image-full">
+        <figure><img src={acfinancial} alt="Shoes" /></figure>
           <div className="card-body ">
             <h2 className="card-title">Personal Loan</h2>
             <p className="text-justify">
@@ -62,10 +59,8 @@ const ProductsandServices = () => {
             </div>
           </div>
         </div>
-        <div className="card lg:w-96 lg:h-96 mb-4 lg:mr-2 bg-base-100 shadow-xl">
-          {/* <figure className="px-10 pt-10">
-    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-  </figure> */}
+        <div className="card w-auto lg:w-96 lg:h-96 mb-4 lg:mr-2 bg-base-100 shadow-xl image-full">
+        <figure><img src={acfinancial} alt="Shoes" /></figure>
           <div className="card-body ">
             <h2 className="card-title">Auto Loan</h2>
             <p className="text-justify">
@@ -85,10 +80,8 @@ const ProductsandServices = () => {
             </div>
           </div>
         </div>
-        <div className="card lg:w-96 lg:h-96 mb-4 lg:mr-2 bg-base-100 shadow-xl">
-          {/* <figure className="px-10 pt-10">
-    <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" className="rounded-xl" />
-  </figure> */}
+        <div className="card w-auto lg:w-96 lg:h-96 mb-4 lg:mr-2 bg-base-100 shadow-xl image-full">
+        <figure><img src={acfinancial} alt="Shoes" /></figure>
           <div className="card-body">
             <h2 className="card-title">Home Loan</h2>
             <p className="text-justify">

@@ -35,7 +35,7 @@ const InvestmentManagement = () => {
         <p className="text-justify">
           <span className="font-bold">
             Develop a Customized Investment Strategy:
-          </span>{" "}
+          </span>
           Working closely with each client, we create a personalized investment
           strategy considering goals, risk tolerance, financial situation, and
           investment experience.
